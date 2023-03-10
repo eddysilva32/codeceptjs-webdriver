@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1677187445956' stop='1677187477287'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1677187457160' status='passed' stop='1677187477262'>
+            <name>Login successfully @login</name>
+            <title>Login successfully @login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@login'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1677187459755' status='passed' stop='1677187473968'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='9b6e41a2-9911-4da6-9da8-6bc1801d1b63-attachment.png' type='image/png' size='1910778'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677187473969' status='passed' stop='1677187474347'>
+                    <name>home_page: accessLoginPage </name>
+                    <title>home_page: accessLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1677187473969' status='passed' stop='1677187474346'>
+                            <name>I click "Login"</name>
+                            <title>I click "Login"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Login"' source='a0f22bde-25a2-4c35-842e-3f026835b37a-attachment.png' type='image/png' size='14543'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1677187474347' status='passed' stop='1677187475748'>
+                    <name>login_page: accessLogin "Dino.Bosco@hotmail.com", "3D0BZZCBeIdHMdO"</name>
+                    <title>login_page: accessLogin "Dino.Bosco@hotmail.com", "3D0BZZCBeIdHMdO"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1677187474347' status='passed' stop='1677187474838'>
+                            <name>I fill field "#user", "Dino.Bosco@hotmail.com"</name>
+                            <title>I fill field "#user", "Dino.Bosco@hotmail.com"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#user", "Dino.Bosco@hotmail.com"' source='a33168e3-6b2b-46b0-b6f8-9271b6515ccf-attachment.png' type='image/png' size='80779'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1677187474839' status='passed' stop='1677187475294'>
+                            <name>I fill field "#password", "3D0BZZCBeIdHMdO"</name>
+                            <title>I fill field "#password", "3D0BZZCBeIdHMdO"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "#password", "3D0BZZCBeIdHMdO"' source='3b647254-8c92-4b8b-b5e2-4dea385e8ffc-attachment.png' type='image/png' size='81260'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1677187475294' status='passed' stop='1677187475748'>
+                            <name>I click "#btnLogin"</name>
+                            <title>I click "#btnLogin"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "#btnLogin"' source='c1d58ce0-7668-4167-b00d-b2b28ab07a17-attachment.png' type='image/png' size='25255'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1677187475748' status='passed' stop='1677187476681'>
+                    <name>I see "Login realizado"</name>
+                    <title>I see "Login realizado"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "Login realizado"' source='976a686b-c121-4a2b-ad94-f0ce86504ac9-attachment.png' type='image/png' size='239538'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677187476681' status='passed' stop='1677187477262'>
+                    <name>I click "OK"</name>
+                    <title>I click "OK"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "OK"' source='d2b7ec7a-cf0d-405c-9d91-5b41a5f67647-attachment.png' type='image/png' size='234707'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
