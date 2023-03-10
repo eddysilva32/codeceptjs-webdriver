@@ -13,9 +13,9 @@ BeforeSuite( () => {
     console.log(cpfName.soma(3.1, 12.2));
 })
 
-/*Scenario('Automatic Login', async (login) => {
-    await login('user')
-}).tag('@autoLogin');*/
+//Scenario('Automatic Login', async (login) => {
+    //await login('user')
+//}).tag('@autoLogin');*/
 
 Scenario('Login successfully',  ({ I }) => {
 
